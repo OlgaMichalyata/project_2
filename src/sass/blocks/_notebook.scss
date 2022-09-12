@@ -1,0 +1,44 @@
+.notebook {
+    background: url(../img/fon2.jpg) center (center/cover) no-repeat;
+    height: 889px;
+    padding: 78px 0 62px 0;
+    &__title {
+        width: 624px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__img img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__menu {
+        display: flex;
+        list-style: none;
+        width: 843px;
+        height: 64px;
+        border: 1px solid #ffffff;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 4px;
+        margin: 27px auto 37px auto;
+        li {
+            font-size: 14px;
+            line-height: 47px;
+            font-weight: 400;
+            color: #ffffff;
+            border-right: 1px solid #adadad;
+            transition: 1s all;
+            &:last-child {
+                border-right: none;
+            }
+            padding-right: 23px;
+            &:hover {
+                font-weight: 700;
+                color: #00c2f0; 
+                cursor: pointer;
+            }
+            
+
+        }
+    }
+}
