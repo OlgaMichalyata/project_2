@@ -1,0 +1,74 @@
+.varianten {
+    background: url(../img/fon3.jpg) center (center/cover) no-repeat;
+    height: 580px;
+    padding: 75px 0 220px 0;
+    z-index: -2;
+    &__title {
+        width: 375px;
+        margin: 0 auto;
+        padding-bottom: 125px;
+    }
+    &__block {
+        &_title1, &_title2 {
+            font-size: 30px;
+            line-height: 22px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: $text-color2;
+            z-index: 1;
+        }
+        &_subtitle1, &_subtitle2 {
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: $text-color2;
+            z-index: 1;
+        }
+        &_title1 {
+            text-align: end;
+            margin-right: 83px;
+        }
+        &_title2 {
+            text-align: start;
+            margin-left: 83px; 
+        }
+        &_subtitle1 {
+            text-align: end;
+            margin: 20px 83px 0 0;           
+        }
+        &_subtitle2 {
+            text-align: start;
+            margin: 20px 0 0 83px;
+        }
+        &_pseudo1 {
+            position: relative;
+            z-index: 1;
+            &::before {
+                content: '';
+                width: 167px;
+                height: 167px;
+                opacity: 0.3;
+                background-color: #00c2f0;
+                position: absolute;
+                top: -43px;
+                right: 48px;
+                z-index: -1;
+            }
+        }
+        &_pseudo2 {
+            position: relative;
+            z-index: 1;
+            &::before {
+                content: '';
+                width: 167px;
+                height: 167px;
+                opacity: 0.3;
+                background-color: #00c2f0;
+                position: absolute;
+                top: -43px;
+                left: 48px;
+                z-index: -1;
+            }
+        }
+    }
+}

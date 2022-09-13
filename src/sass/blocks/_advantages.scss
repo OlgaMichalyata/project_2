@@ -4,7 +4,6 @@
     &__title {
         color: rgb(0, 0, 0);
         width: 375px;
-        text-align: center;
         margin: 0 auto 45px auto;
     }
     .col-6 {
@@ -23,7 +22,7 @@
             font-size: 23px;
             line-height: 26px;
             font-weight: 400;
-            color: #ffffff;
+            color: $text-color2;
             text-align: center;
         }
     }

@@ -1,0 +1,49 @@
+.footer {
+    background-color: #0082a1;
+    height: 500px;
+    padding: 50px 0 40px 0;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block1 {
+        width: 390px;
+        &_text {
+            font-size: 16px;
+            line-height: 20px;
+            color: $text-color2;
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 22px;
+        } 
+    }
+    &__maintitle {
+        font-size: 16px;
+        line-height: 40px;
+        font-weight: 700;
+        color: $text-color2;
+    }
+    &__list {
+        line-height: 23px;
+        color: $text-color2;
+        font-size: 14px;
+        font-weight: 300; 
+        list-style: none;
+        cursor: pointer;
+    }
+    &__line {
+        width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+        background-color: $text-color2;
+        margin: 38px 0 29px 0;
+    }
+    &__label {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: $text-color2;
+        text-align: center;
+    }
+    
+}
