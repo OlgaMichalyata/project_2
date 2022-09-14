@@ -13,6 +13,15 @@
             list-style: none;
             justify-content: space-between;
             cursor: pointer;
+            li{
+                padding: 5px;
+                border-radius: 8px;
+                transition: 1s all;
+               &:hover {
+                    border: 1px solid $text-color2;  
+                } 
+            }
+            
         }
         &_logo img{
             width: 140px;
